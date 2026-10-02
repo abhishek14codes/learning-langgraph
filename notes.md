@@ -22,3 +22,11 @@
 3. tools - external actions , knowledge base access 
 4. memory - short term m, long term , state tracking 
 5. supervisor - aprrove requests , guardrail enforcements , edge case escalation 
+
+# Langgraph Core Components
+1. llm workflows : prompt chaining , routing , parallelization , orchestrator , evaluator optimizer
+# state 
+state stores variables in key value pairs , every node can make changes in state its mutable 
+# reducers
+it decides whether the new data in state replaces , merges , adds to existing value etc 
+ 
